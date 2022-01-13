@@ -1,7 +1,9 @@
 package com.rexpax.ui.activity;
 
-import android.support.v7.app.ActionBar;
 import android.util.Log;
+
+import androidx.appcompat.app.ActionBar;
+
 import com.rexpax.ui.AbstractActivity;
 
 /**

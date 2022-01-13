@@ -1,11 +1,14 @@
 package com.rexpax.ui;
 
 import android.annotation.SuppressLint;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -13,7 +16,7 @@ import com.rexpax.R;
 import com.rexpax.utils.KeyboardUtils;
 
 
-public abstract class AbstractActivity extends ActionBarActivity implements IFragmentListener {
+public abstract class AbstractActivity extends AppCompatActivity implements IFragmentListener {
 
     protected FragmentManager fragmentManager;
     protected TextView actionBarTitle;
@@ -56,11 +59,11 @@ public abstract class AbstractActivity extends ActionBarActivity implements IFra
 
     @Override
     public void setActionBarTitle (String title, int gravity){
-        getActionBarSupported().setTitle(title);
+        getActionBar().setTitle(title);
     }
 
     private void setupActionBar() {
-        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayShowTitleEnabled(true);
