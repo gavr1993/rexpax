@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Rexpax</string>
+    <string name="title_activity_startup">StartupActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_base">LoginBaseActivity</string>
+    <string name="title_activity_abstract">AbstractActivity</string>
+
+    <string name="loading_str">Loading...</string>
+    <string name="navigation_drawer_open">Select screen</string>
+    <string name="navigation_drawer_close"></string>
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_about">About</string>
+
+<!-- Login Fragment -->
+    <string name="login_to_account_text">Login: </string>
+    <string name="forgot_password_text"><u>Forgot password?</u></string>
+    <string name="enter_btn_login_text">Enter</string>
+    <string name="registration_btn_login_text">Registration</string>
+    <string name="or_text">or</string>
+    <string name="dont_have_an_account">Do not have an account in RexPax?</string>
+
+<!-- Registration Fragment -->
+    <string name="enter_data_text">Enter your data</string>
+    <string name="required_star_text">*</string>
+    <string name="man_radio_bt">Man</string>
+    <string name="woman_radio_btn">Woman</string>
+    <string name="term_conditions_first_part">I agree with </string>
+    <string name="privacy_policy">Privacy Policy </string>
+    <string name="busines_account_text">OR YOU CAN REGISTER BUSINES ACCOUNT </string>
+    <string name="registration_btn_text">Registration </string>
+    <string name="registration_footer_text">RexPax – best application for management your wardrobe</string>
+
+<!-- Recovery password Fragment -->
+    <string name="password_recovery">Password recovery</string>
+    <string name="recovery_text">You about to restore your password. Please, enter your e-mail address that was setted at registration.</string>
+    <string name="send_btn">Send</string>
+    <string name="email_hint_edit_text">E-mail</string>
+
+<!-- SuccessfulRegistration screen -->
+    <string name="congrat_text">You have been created an account on RexPax!</string>
+    <string name="next_steps_registration">You have to pass through 4 simple steps and RexPex will be more comfortable and pleasant</string>
+    <string name="next_register_btn">Next</string>
+    <string name="skip_register_btn">Skip</string>
+
+<!-- InterestFragment -->
+    <string name="your_hobbies_text">What are you hobbies?</string>
+
+</resources>

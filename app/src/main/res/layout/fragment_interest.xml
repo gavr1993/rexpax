@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rexpax.ui.fragment.InterestFragment">
+
+    <TextView
+        android:id="@+id/text_hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_hobbies_text"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/skip_btn_hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_register_btn"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_above="@id/skip_btn_hobbies"
+        android:layout_below="@id/text_hobbies"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/image_view_electronics"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+            <include
+                android:id="@+id/image_view_electronics"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/image_view_fashion"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+            <include
+                android:id="@+id/image_view_travel"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/image_view_decoration"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+            <include
+                android:id="@+id/image_view_cooking"
+                layout="@layout/image_item_of_category_of_interests"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
