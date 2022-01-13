@@ -1,8 +1,10 @@
 package com.rexpax.ui.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.MenuItem;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 
 import com.rexpax.R;
 import com.rexpax.ui.components.NavigationDrawerHelper;
@@ -84,7 +86,7 @@ public class NavigationActivity extends BaseFragmentActivity implements Navigati
     }
 
     private void setupActionBar() {
-        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayShowTitleEnabled(true);
